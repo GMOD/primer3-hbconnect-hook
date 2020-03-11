@@ -1,1 +1,1 @@
-# primer3-hbconnect-hook
+# primer3-jbconnect-hook
