@@ -1,0 +1,37 @@
+{
+  "name": "primer3-jbconnect-hook",
+  "version": "0.10.0",
+  "description": "primer3 - JBConnect Hook",
+  "main": "api/hooks/index.js",
+  "scripts": {
+    "postinstall": "node bin/postinstall.js"
+  },
+  "keywords": [
+    "sails",
+    "sails.js",
+    "jbrowse"
+  ],
+  "author": "enuggetry",
+  "license": "MIT",
+  "dependencies": {
+    "app-root-path": "^2.0.1",
+    "fs-extra": "^3.0.1",
+    "grunt-bump": "^0.8.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-publish": "^1.0.0",
+    "lodash": "^4.17",
+    "marlinspike": "^1.0.0"
+  },
+  "bundledDependencies": [
+    "lodash"
+  ],
+  "engines": {
+    "node": ">= 10.19.0",
+    "npm": ">= 6.13.4"
+  },
+  "sails": {
+    "isHook": true,
+    "isJBConnectHook": true,
+    "hookName": "primer3-jbconnect-hook"
+  }
+}
