@@ -1,4 +1,5 @@
 # primer3-jbconnect-hook
+A JBConnect install hook for Primer3 analysis.
 
 ### Pre-Install
 Primer3 JBConnect Hook requires [redis](http://redis.io "http://redis.io") as a pre-requisite, which is only used by the queue framework ([kue](https://www.npmjs.com/package/kue "https://www.npmjs.com/package/kue")). JBConnect depends on [SailsJS](http://sailsjs.com "http://sailsjs.com").
