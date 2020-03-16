@@ -14,13 +14,11 @@
   "author": "enuggetry",
   "license": "MIT",
   "dependencies": {
-    "app-root-path": "^2.0.1",
+    "app-root-path": "^2.2.1",
     "fs-extra": "^3.0.1",
-    "grunt-bump": "^0.8.0",
-    "grunt-contrib-jshint": "^1.1.0",
-    "grunt-publish": "^1.0.0",
-    "lodash": "^4.17",
-    "marlinspike": "^1.0.0"
+    "lodash": "^4.17.15",
+    "marlinspike": "^1.0.0",
+    "shelljs": "^0.8.3"
   },
   "bundledDependencies": [
     "lodash"
