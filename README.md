@@ -26,6 +26,9 @@ npm install gmod/primer3-jbconnect-hook
 npm install @gmod/jbrowse@1.15.1
 patch node_modules/@gmod/jbrowse/setup.sh fix_jbrowse_setup.patch
 ./utils/jb_setup.js
+
+# register plugin
+./jbutil --pushplugins --buildwebpack
 ```
 The patch operation is needed to make JBrowse 1.15.1 setup.sh run properly. If JBrowse is installed in another location, the patch should be run before setup.sh.
 
