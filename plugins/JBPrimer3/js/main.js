@@ -48,6 +48,9 @@ return declare( JBrowsePlugin,
                 //iconClass: 'dijitIconFilter',
                 onClick: function() {
 
+                    let bpSize = browser._highlight.end - browser._highlight.start;
+                    if (browser.jbconnect.isOversized(bpSize))  return;
+
                     let btnState = $("[widgetid*='highlight-btn'] > input").attr('aria-checked');
                     console.log("btnState",btnState,typeof btnState);
                     if (btnState==='mixed') {
